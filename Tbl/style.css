@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding-top: 500px;
+    text-align: center;
+    
+}
+#pic{
+     border-radius:50%; 
+}
+#welcome{
+     right:0;
+     top:0;
+     bottom:0;
+    background:linear-gradient(#ff8000 0%,#00e1ff 100%);
+  z-index: 9;  
+}
+#bio{
+    
+    font-size:30px;
+    color: black;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+#list{
+    z-index: 10;
+    list-style: none;
+font-size: 20px; 
+    cursor:pointer;
+    position:fixed;
+    background:white;
+    width:100%;
+    margin-top:0px;
+  color: chartreuse;
+    top:0;
+.item{
+    float: left;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+.item:hover{
+    background-color: deepskyblue;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+    #contact{
+        
+        background:firebrick;
+    }
+    #contact iframe{
+        
+        width:100%;
+    }
+    #writings{
+        
+    color:lightblue
+    }
